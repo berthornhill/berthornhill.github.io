@@ -168,7 +168,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+  /* box-sizing: inherit; */
 }
 
 body {
@@ -1961,7 +1961,7 @@ button.style3:hover,
   top: 0;
   width: 50%;
   height: 100%;
-  background: #152e33;
+  background: #ffffff;
   overflow: hidden;
 }
 
@@ -1970,6 +1970,9 @@ button.style3:hover,
   top: 0;
   height: 100%;
   width: auto;
+}
+.box.style1 .image img:hover {
+  opacity: 0.7;
 }
 
 .box.style1 .inner > :last-child {
