@@ -2200,7 +2200,8 @@ body.is-preload #header footer {
 #banner {
   position: relative;
   color: #fff;
-  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
+  /* color: #1d201f; */
+  text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.068);
   text-align: center;
   background: #35b88f url("images/banner.svg") bottom center no-repeat;
   padding: 5em 0 5em 0;
@@ -2215,6 +2216,7 @@ body.is-preload #header footer {
 
 #resume-link {
   padding-top: 42px;
+  font-size: 45px;
 }
 
 #about-header {
